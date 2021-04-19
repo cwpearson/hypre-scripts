@@ -9,12 +9,12 @@ module load cuda
 set -x
 
 #first, clone into this directory
-# git clone git@github.com:hypre-space/hypre.git $HYPRE_DIR
+# git clone git@github.com:hypre-space/hypre.git
+# git checkout v2.22.0 
 HYPRE_DIR=$HOME/repos/hypre
 
 # we'll use v2.22.0
 cd $HYPRE_DIR
-git checkout v2.20.0 #sep 24, 2020
 
 # find the CUDA directory
 NVCC=`which nvcc`
