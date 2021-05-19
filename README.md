@@ -4,7 +4,7 @@ Hypre's CMake does not support CUDA yet, so we gotta use `configure`.
 
 # Summit
 
-Edit `configure-summit.sh` to choose the install directory.
+Edit `summit-configure-make-install.sh` to choose the install directory.
 
 ## Building examples
 
