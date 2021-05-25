@@ -4,6 +4,7 @@
 
 set -eou pipefail
 
+# when you build hypre examples, you should load these as well
 module load cuda
 module load gcc
 
